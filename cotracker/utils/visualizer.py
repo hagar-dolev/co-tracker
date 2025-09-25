@@ -79,7 +79,7 @@ class Visualizer:
             self.color_map = cm.get_cmap(mode)
         self.show_first_frame = show_first_frame
         self.grayscale = grayscale
-        self.tracks_leave_trace = tracks_leave_trace
+        self.tracks_leave_trace = tracks_leave_trace ## Here you need to change input.
         self.pad_value = pad_value
         self.linewidth = linewidth
         self.fps = fps

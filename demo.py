@@ -38,7 +38,7 @@ if __name__ == "__main__":
         default=None,
         help="CoTracker model parameters",
     )
-    parser.add_argument("--grid_size", type=int, default=10, help="Regular grid size")
+    parser.add_argument("--grid_size", type=int, default=20, help="Regular grid size")
     parser.add_argument(
         "--grid_query_frame",
         type=int,
